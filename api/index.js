@@ -62,7 +62,7 @@ state = 0;
 })
 
 // router
-router.get('/', function(req, res, next) {
+router.get('/prediction/:i/:r', function(req, res, next) {
   res.render('index', { title: 'Express' });
 });
 
