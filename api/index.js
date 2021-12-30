@@ -61,4 +61,9 @@ state = 0;
     }
 })
 
-module.exports = r;
+// router
+router.get('/', function(req, res, next) {
+  res.render('index', { title: 'Express' });
+});
+
+module.exports = router;
