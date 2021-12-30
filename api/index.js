@@ -61,9 +61,4 @@ state = 0;
     }
 })
 
-// router
-router.get('/prediction/:i/:r', function(req, res, next) {
-  res.render('index', { title: 'Express' });
-});
-
-module.exports = router;
+module.exports = r;
